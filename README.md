@@ -23,11 +23,11 @@
     <img src="https://komarev.com/ghpvc/?username=luisgbr1el&label=Profile%20views&color=brightgreen&label=Profile+Views&style=flat-square">
 
   </a>
-  <a href="https://github.com/phaticusthiccy?tab=stars">
+  <a href="https://github.com/luisgbr1el?tab=stars">
     <img src="https://img.shields.io/github/stars/luisgbr1el?color=brightgreen&label=Stargazers&style=flat-square">
 
   </a>
-  <a href="https://github.com/phaticusthiccy?tab=followers">
+  <a href="https://github.com/luisgbr1el?tab=followers">
     <img src="https://img.shields.io/github/followers/luisgbr1el?color=brightgreen&label=Followers&style=flat-square">
 
   </a>
