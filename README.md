@@ -18,8 +18,7 @@
   <img  alt="Luis-Csharp" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
   <img  alt="Luis-PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 
-   
-  
+  <br>
   <a href="https://github.com/luisgbr1el">
     <img src="https://komarev.com/ghpvc/?username=luisgbr1el&label=Profile%20views&color=brightgreen&label=Profile+Views&style=flat-square">
 
