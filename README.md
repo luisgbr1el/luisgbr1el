@@ -35,7 +35,6 @@
  <p align="center">
   <a href="https://instagram.com/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/-Instagram-00BB2D?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="https://www.twitch.tv/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Twitch-00BB2D?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
-  <a href="https://www.twitter.com/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Twitter-00BB2D?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
   <a href = "mailto:harrycorpmail@gmail.com"><img src="https://img.shields.io/badge/-Gmail-00BB2D?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-00BB2D?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="https://t.me/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Telegram-00BB2D?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a> 
