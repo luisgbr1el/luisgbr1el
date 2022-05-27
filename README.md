@@ -7,9 +7,9 @@
 </p>
   
 <p align="center">
-  <img  alt="Luis-React" src="https://img.shields.io/badge/React-00BB2D?style=for-the-badge&logo=react&logoColor=white">
-  <img  alt="Luis-Node" src="https://img.shields.io/badge/Node.js-00BB2D?style=for-the-badge&logo=node.js&logoColor=white">
-  <img  alt="Luis-Node" src="https://img.shields.io/badge/NPM-00BB2D?style=for-the-badge&logo=npm&logoColor=white">
+  <img  alt="Luis-Js" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript">
+  <img  alt="Luis-Vue" src="https://img.shields.io/badge/Vue.js-323330?style=for-the-badge&logo=Vue.js">
+  <img  alt="Luis-Node" src="https://img.shields.io/badge/Node.js-323330?style=for-the-badge&logo=node.js">
   
 </p>
 
@@ -33,11 +33,11 @@
 <h2 align="center">Social</h2>
  
  <p align="center">
-  <a href="https://instagram.com/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/-Instagram-00BB2D?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://www.twitch.tv/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Twitch-00BB2D?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
-  <a href = "mailto:harrycorpmail@gmail.com"><img src="https://img.shields.io/badge/-Gmail-00BB2D?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-00BB2D?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href="https://t.me/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Telegram-00BB2D?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a> 
+  <a href="https://instagram.com/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/-Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://www.twitch.tv/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
+  <a href = "mailto:luisgabrielaraujo8@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://t.me/luisgbr1el" target="_blank"><img src="https://img.shields.io/badge/Telegram-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a> 
 
 
 </p>
