@@ -2,17 +2,6 @@
 
 <p align="center">
   
-  <details align="center">
-    <summary><b>Metrics</b></summary>
-    
-![Metrics](https://metrics.lecoq.io/luisgbr1el?template=classic&isocalendar=1&habits=1&people=1&achievements=1&base.indepth=false&base.hireable=false&isocalendar.duration=full-year&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.shuffle=false&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&config.timezone=America%2FSao_Paulo)
-    
-  </details>
-
-</p>
-
-<p align="center">
-  
   <a href="https://github.com/luisgbr1el">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=luisgbr1el&show_icons=true&theme=blue-green&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luisgbr1el&layout=compact&langs_count=7&theme=blue-green"/>
