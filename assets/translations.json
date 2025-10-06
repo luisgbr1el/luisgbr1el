@@ -1,0 +1,34 @@
+{
+    "about": {
+        "pt-BR": "Sobre mim",
+        "en": "About me"
+    },
+    "projects": {
+        "pt-BR": "Meu trabalho",
+        "en": "My work"
+    },
+    "contact": {
+        "pt-BR": "Contato",
+        "en": "Contact me"
+    },
+    "introduction": {
+        "pt-BR": "Olá, sou Luis Gabriel! 👋",
+        "en": "Hey, I'm Luis Gabriel! 👋"
+    },
+    "work-together": {
+        "pt-BR": "Vamos trabalhar juntos!",
+        "en": "Let's work together!"
+    },
+    "send-message": {
+        "pt-BR": "Enviar mensagem",
+        "en": "Send message"
+    },
+    "about-text": {
+        "pt-BR": "Sou um desenvolvedor brasileiro com interesse em tecnologias voltadas para desenvolvimento <i>web</i>, <i>backend</i> e <i>mobile</i>. Tenho conhecimento prático em linguagens como <b>JavaScript, TypeScript, Python, C, C# e Java</b>, além de <b>HTML e CSS</b> para construção de interfaces. <br /><br /> Já trabalhei com <i>frameworks</i> e bibliotecas como <b>React, React Native, Vue.js, Next.js, jQuery e Bootstrap</b>. No <i>backend</i>, tenho experiência com <b>Node.js, NestJS, .NET e ASP.NET</b>, além do uso do <b>Prisma</b> como ORM para integração com bancos de dados.",
+        "en": "I'm a brazilian developer interested in technologies focused on web, backend, and mobile development. I have practical knowledge in languages such as <b>JavaScript, TypeScript, Python, C, C# and Java</b>, as well as <b>HTML and CSS</b> for building interfaces. <br /><br /> I have worked with frameworks and libraries like <b>React, React Native, Vue.js, Next.js, jQuery and Bootstrap</b>. In backend development, I have experience with <b>Node.js, NestJS, .NET and ASP.NET</b>, in addition to using <b>Prisma</b> as an ORM for database integration."
+    },
+    "contact-text": {
+        "pt-BR": "Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem através do meu e-mail ou das minhas redes sociais.",
+        "en": "If you want to get in touch with me, feel free to send me a message through my email or social media."
+    }
+}

@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-	  <meta lang="pt_BR">
-      <meta name="viewport" content="width=device-width">
-      <title>Luis Gabriel Araújo</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<meta lang="pt_BR">
+	<meta name="viewport" content="width=device-width">
+	<title>Luis Gabriel Araújo</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://kit.fontawesome.com/f72d804116.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<div id="navbar">
+			<img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg">
+			<div id="info">
+				<i class="fa-solid fa-language"></i>
+				<select title="Idioma" id="lang-select" onchange="setLanguage(this.value)">
+					<option value="pt-BR">Português</option>
+					<option value="en">English</option>
+				</select>
+				<ul>
+					<li><a class="navbar-button about" href="#about"></a></li>
+					<li><a class="navbar-button projects" href="#projects"></a></li>
+					<li><a class="navbar-button contact" href="#contact"></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div id="social-medias">
+		<a class="social-media" href="https://github.com/luisgbr1el" target="_blank">
+			<i class="fa-brands fa-github"></i>
+		</a>
+		<a class="social-media" href="https://www.linkedin.com/in/luisgbr1el/" target="_blank">
+			<i class="fa-brands fa-linkedin-in"></i>
+		</a>
+		<a class="social-media" href="https://x.com/luisgbr1el" target="_blank">
+			<i class="fa-brands fa-x-twitter"></i>
+		</a>
+		<a class="social-media" href="https://instagram.com/luisgbr1el" target="_blank">
+			<i class="fa-brands fa-instagram"></i>
+		</a>
+	</div>
+	<div id="main">
+		<section id="about">
+			<p class="subtitle about"></p>
+			<p class="title introduction"></p>
+			<!-- <img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg"> -->
+			<p id="about-text" class="text about-text"></p>
+			<!-- <a class="button projects" href="#projects"></a> -->	
+			<a class="button contact" href="#contact"></a>
+		</section>
+		<section id="projects">
+			<p class="subtitle projects"></p>
+			<p class="title introduction"></p>
+			<!-- <img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg"> -->
+			<p id="about-text" class="text about-text"></p>
+			<!-- <a class="button projects" href="#projects"></a> -->	
+			<a class="button contact" href="#contact"></a>
+		</section>
+		<section id="contact">
+			<p class="subtitle contact"></p>
+			<p class="title work-together"></p>
+			<p id="about-text" class="text contact-text"></p>
+			<a class="button send-message" href="mailto:luisgabrielaraujo8@gmail.com" target="_blank"></a>
+		</section>
+	</div>
+</body>
+<script src="script.js"></script>
 </html>
