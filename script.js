@@ -1,5 +1,60 @@
 const supportedLanguages = ['en', 'pt-BR'];
 
+function isMobile() {
+	return window.innerWidth <= 768;
+}
+
+function setPfpPosition() {
+	if (isMobile()) {
+		const header = document.getElementsByTagName('header')[0];
+		const pfpImg = document.createElement('img');
+		pfpImg.id = 'pfp-mobile';
+		pfpImg.alt = 'Foto de Luis Gabriel Araújo';
+		pfpImg.src = '/images/pfp.jpg';
+		header.insertBefore(pfpImg, header.firstChild);
+	}
+}
+
+function setupNavbarLinks() {
+	const navbarButtons = document.querySelectorAll('.navbar-button');
+	
+	navbarButtons.forEach(button => {
+		button.replaceWith(button.cloneNode(true));
+	});
+	
+	const newNavbarButtons = document.querySelectorAll('.navbar-button');
+	
+	newNavbarButtons.forEach(button => {
+		if (isMobile()) {
+			button.addEventListener('click', function(e) {
+				e.preventDefault();
+				
+				const href = this.getAttribute('href');
+				if (href) {
+					const targetElement = document.querySelector(href);
+					if (targetElement) {
+						setTimeout(() => {
+							targetElement.scrollIntoView({ behavior: 'smooth' });
+						}, 300);
+					}
+				}
+				toggleNavbar();
+			});
+		} else {
+			button.addEventListener('click', function(e) {
+				e.preventDefault();
+				const href = this.getAttribute('href');
+				if (href) {
+					const targetElement = document.querySelector(href);
+					if (targetElement) {
+						targetElement.scrollIntoView({ behavior: 'smooth' });
+					}
+				}
+			});
+		}
+	});
+}
+
 (function() {
 	$.easing.easeInOutCubic = function(x) {
 		return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
@@ -70,16 +125,11 @@ const supportedLanguages = ['en', 'pt-BR'];
 	$('#projects').fadeIn(1000, 'swing');
 	$('#contact').fadeIn(1000, 'swing');
 
-	$('.navbar-button').click(function(e) {
-		e.preventDefault();
-		const target = $(this).attr('href');
-		const targetElement = $(target);
-		
-		if (targetElement.length) {
-			$('html, body').animate({
-				scrollTop: targetElement.offset().top
-			}, 100, 'easeInOutCubic');
-		}
+	setupNavbarLinks();
+	setPfpPosition();
+
+	$(window).resize(function() {
+		setupNavbarLinks();
 	});
 
 	$('.button').click(function(e) {
@@ -175,5 +225,30 @@ function setCursor(type) {
 				'border': 'none'
 			});
 			break;
+	}
+}
+
+function toggleNavbar() {
+	const navbar = document.getElementById('navbar');
+	const bars = document.getElementById('bars');
+	const currentDisplay = window.getComputedStyle(navbar).display;
+	
+	bars.style.opacity = '0';
+	
+	if (currentDisplay === 'none') {
+		navbar.style.display = 'block';
+		navbar.style.opacity = '0';
+		setTimeout(() => {
+			bars.textContent = '✕';
+			bars.style.opacity = '1';
+			navbar.style.opacity = '1';
+		}, 150);
+	} else {
+		navbar.style.opacity = '0';
+		setTimeout(() => {
+			bars.textContent = '☰';
+			navbar.style.display = 'none';
+			bars.style.opacity = '1';
+		}, 150);
 	}
 }

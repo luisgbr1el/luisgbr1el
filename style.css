@@ -83,6 +83,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	pointer-events: auto;
+	transition: opacity 0.3s ease;
 }
 
 #info {
@@ -91,6 +92,11 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+#bars {
+	display: none;
+	transition: opacity 0.3s ease;
 }
 
 select {
@@ -184,6 +190,10 @@ section {
 	margin-right: 20px;
 }
 
+#pfp-mobile {
+	display: none;
+}
+
 .subtitle {
 	margin: 0;
 	padding: 0;
@@ -194,6 +204,7 @@ section {
 
 .title {
 	font-weight: bold;
+	text-align: left;
 	margin: 0;
 	padding: 0;
 	font-size: 35pt;
@@ -271,4 +282,103 @@ li {
 	background-position: 0px;
 	color: var(--text-primary);
 	transition: 0.5s ease;
+}
+
+@media (max-width: 768px) {
+	section {
+		width: 90%;
+		height: auto;
+		padding: 100px 0 50px 0;
+		font-size: 12pt;
+	}
+
+	header {
+		height: 60px;
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(10px);
+	}
+
+	#custom-cursor, #cursor-container, #pfp {
+		display: none;
+	}
+
+	#pfp-mobile {
+		display: block;
+		width: 40px;
+		padding: 10px 20px;
+		border-radius: 50%;
+	}
+
+	#info {
+		display: block;
+	}
+
+	#navbar {
+		position: absolute;
+		top: 0;
+		margin: 0;
+		padding: 80px 0 0 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		background-color: var(--bg-primary);
+		width: 100%;
+		height: 100vh;
+		display: none;
+		transition: opacity 0.3s ease;
+	}
+
+	#bars {
+		z-index: 99999;
+		display: block;
+		margin: 0;
+		font-size: 20pt;
+		cursor: pointer;
+		position: fixed;
+		top: 5px;
+		right: 20px;
+	}
+
+	.about {
+		font-size: 12pt;
+	}
+
+	.title {
+		font-size: 20pt;
+		line-height: 28pt;
+	}
+
+	.text {
+		width: 100%;
+	}
+
+	#social-medias {
+		flex-direction: row;
+		bottom: 15px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	#social-medias::after {
+		display: none;
+	}
+
+	.social-media {
+		font-size: 12pt;
+		margin: 0 10px 0 10px;
+	}
+
+	ul {
+		margin-top: 20px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	li {
+		margin: 5px 0;
+	}
+	
 }
