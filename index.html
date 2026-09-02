@@ -1,73 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
 	<meta charset="utf-8">
-	<meta lang="pt_BR">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Luis Gabriel Araújo</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="style.css">
 	<script src="https://kit.fontawesome.com/f72d804116.js" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<header>
-		<p id="bars" onclick="toggleNavbar()">☰</p>
-		<div id="navbar">
-			<img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg">
-			<div id="info">
-				<i class="fa-solid fa-language"></i>
-				<select title="Idioma" id="lang-select" onchange="setLanguage(this.value)">
-					<option value="pt-BR">Português</option>
-					<option value="en">English</option>
-				</select>
-				<ul>
-					<li><a class="navbar-button about" href="#about"></a></li>
-					<li><a class="navbar-button projects" href="#projects"></a></li>
-					<li><a class="navbar-button contact" href="#contact"></a></li>
-				</ul>
-			</div>
+	<div id="custom-cursor"></div>
+	<div id="cursor-container"></div>
+
+	<header id="header">
+		<div class="header-container">
+			<a href="#about" class="brand">
+				<img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg">
+			</a>
+
+			<button id="bars" aria-label="Abrir Menu" onclick="toggleNavbar()">☰</button>
+
+			<nav id="navbar" aria-label="Navegação Principal">
+				<div id="info">
+					<div class="lang-container">
+						<i class="fa-solid fa-language" aria-hidden="true"></i>
+						<select title="Idioma" id="lang-select" onchange="setLanguage(this.value)">
+							<option value="pt-BR">Português</option>
+							<option value="en">English</option>
+						</select>
+					</div>
+
+					<ul class="nav-links">
+						<li><a class="navbar-button about" href="#about"></a></li>
+						<li><a class="navbar-button projects" href="#projects"></a></li>
+						<li><a class="navbar-button contact" href="#contact"></a></li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</header>
-	<div id="social-medias">
-		<a class="social-media" href="https://github.com/luisgbr1el" target="_blank">
+
+	<aside id="social-medias" aria-label="Redes Sociais">
+		<a class="social-media" href="https://github.com/luisgbr1el" target="_blank" rel="noopener noreferrer"
+			aria-label="GitHub">
 			<i class="fa-brands fa-github"></i>
 		</a>
-		<a class="social-media" href="https://www.linkedin.com/in/luisgbr1el/" target="_blank">
+		<a class="social-media" href="https://www.linkedin.com/in/luisgbr1el/" target="_blank" rel="noopener noreferrer"
+			aria-label="LinkedIn">
 			<i class="fa-brands fa-linkedin-in"></i>
 		</a>
-		<a class="social-media" href="https://x.com/luisgbr1el" target="_blank">
+		<a class="social-media" href="https://x.com/luisgbr1el" target="_blank" rel="noopener noreferrer"
+			aria-label="X (Twitter)">
 			<i class="fa-brands fa-x-twitter"></i>
 		</a>
-		<a class="social-media" href="https://instagram.com/luisgbr1el" target="_blank">
+		<a class="social-media" href="https://instagram.com/luisgbr1el" target="_blank" rel="noopener noreferrer"
+			aria-label="Instagram">
 			<i class="fa-brands fa-instagram"></i>
 		</a>
-	</div>
-	<div id="main">
-		<section id="about">
-			<p class="subtitle about"></p>
-			<p class="title introduction"></p>
-			<!-- <img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg"> -->
-			<p id="about-text" class="text about-text"></p>
-			<!-- <a class="button projects" href="#projects"></a> -->	
-			<a class="button contact" href="#contact"></a>
+	</aside>
+
+	<main id="main">
+		<section id="about" class="section-container">
+			<div class="section-content">
+				<p class="subtitle about"></p>
+				<h1 class="title introduction"></h1>
+				<p id="about-text" class="text about-text"></p>
+				<div class="cta-actions">
+					<a class="button contact" href="#contact"></a>
+				</div>
+			</div>
 		</section>
-		<section id="projects">
-			<p class="subtitle projects"></p>
-			<p class="title introduction"></p>
-			<!-- <img id="pfp" alt="Foto de Luis Gabriel Araújo" src="/images/pfp.jpg"> -->
-			<p id="about-text" class="text about-text"></p>
-			<!-- <a class="button projects" href="#projects"></a> -->	
-			<a class="button contact" href="#contact"></a>
+
+		<section id="projects" class="section-container">
+			<div class="section-content">
+				<p class="subtitle projects"></p>
+				<h2 class="title projects-title introduction"></h2>
+				<div id="projects-grid" class="projects-grid">
+
+				</div>
+			</div>
 		</section>
-		<section id="contact">
-			<p class="subtitle contact"></p>
-			<p class="title work-together"></p>
-			<p id="about-text" class="text contact-text"></p>
-			<a class="button send-message" href="mailto:luisgabrielaraujo8@gmail.com" target="_blank"></a>
+
+		<section id="contact" class="section-container">
+			<div class="section-content">
+				<p class="subtitle contact"></p>
+				<h2 class="title work-together"></h2>
+				<p id="contact-text" class="text contact-text"></p>
+				<div class="cta-actions">
+					<a class="button send-message" href="mailto:luisgabrielaraujo8@gmail.com" target="_blank"
+						rel="noopener noreferrer"></a>
+				</div>
+			</div>
 		</section>
-	</div>
+	</main>
+
+	<script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
