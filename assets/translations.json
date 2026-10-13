@@ -30,5 +30,45 @@
     "contact-text": {
         "pt-BR": "Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem através do meu e-mail ou das minhas redes sociais.",
         "en": "If you want to get in touch with me, feel free to send me a message through my email or social media."
+    },
+    "projects-title": {
+        "pt-BR": "Projetos em destaque",
+        "en": "Featured projects"
+    },
+    "project-btn-code": {
+        "pt-BR": "Código",
+        "en": "Code"
+    },
+    "project-btn-demo": {
+        "pt-BR": "Demo",
+        "en": "Demo"
+    },
+    "project-btn-website": {
+        "pt-BR": "Website",
+        "en": "Website"
+    },
+    "project-btn-download": {
+        "pt-BR": "Baixar",
+        "en": "Download"
+    },
+    "project-translatorbot-desc": {
+        "pt-BR": "Bot para Discord que realiza traduções em tempo real de mensagens de texto enviadas pelos usuários.",
+        "en": "Discord bot that translates text messages sent by users in real time."
+    },
+    "project-magearena-desc": {
+        "pt-BR": "Mod para o jogo Mage Arena com tradução completa e suporte a invocação de feitiços através de comandos de voz em português.",
+        "en": "Mod for the game Mage Arena featuring full translation and support for voice-activated spell casting in Portuguese."
+    },
+    "project-ru-bot-desc": {
+        "pt-BR": "Bot para o Telegram que consulta o saldo do cartão do Restaurante Universitário da Universidade Federal do Ceará.",
+        "en": "Telegram bot that checks meal card balances for the Federal University of Ceará (UFC) student cafeteria."
+    },
+    "project-backloggr-desc": {
+        "pt-BR": "Aplicação web para gerar cards visuais e compartilháveis a partir das suas análises de jogos no Backloggd.",
+        "en": "Web application to generate clean, shareable visual cards from your Backloggd game reviews."
+    },
+    "project-lastbatch-desc": {
+        "pt-BR": "Aplicação desktop para scrobbling em lote (batch scrobble) de faixas e álbuns para o Last.fm.",
+        "en": "Desktop application for batch scrobbling tracks and albums to Last.fm."
     }
 }
